@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --hue: 142;
+    --main:hsla(var(--hue), 100%, 30%);
+    --mainDark: hsla(var(--hue), 100%, 9%);
+    --mainlight: hsla(var(--hue), 100%, 9%, 0.8);
+    --mainHover: hsl(var(--hue), 50%, 30%);
+    --robotoMono: 'Roboto Mono', monospace;
+}
+
+body {
+    min-height: 100vh;
+    background: url("brazil.jpg") no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#foto {
+    display: block;
+    width: 225px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#arroba{
+    color: whitesmoke; 
+    font-size: 15px;
+    font-family: var(--robotoMono);
+    text-align: center;
+}
+
+#arrobas{
+    width: 325px;
+    background-color: var(--mainDark);
+    border-color: transparent;
+    border-radius: 5px;
+    position: relative;
+}
+
+.listalinks{
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.listalinks .itenslinks{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    margin-bottom: 16px;
+    background-color: var(--main);
+    
+    transition: background-color.2s;
+}
+
+.itenslinks:hover{
+    background-color: var(--mainHover);
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    width: 300px;
+    height: 60px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
