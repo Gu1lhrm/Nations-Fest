@@ -80,6 +80,34 @@
     cursor: pointer;
 }
 
+.close4 {
+    color: var(--main);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close5 {
+    color: var(--main);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close5:hover,
+.close5:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #folclore{
     display: block;
     margin: 0 auto;
@@ -119,6 +147,43 @@
 }
 
 .independenciaTitle{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: var(--main);
+}
+
+#equidade{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.equidadeTitle{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: var(--main);
+}
+
+#games{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#games:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.gamesTitle{
     text-align: center;
     margin-left: 20px;
     font-size: 1.5em;
@@ -211,4 +276,9 @@ a:link, a:visited {
     position: relative;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+hr {
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
