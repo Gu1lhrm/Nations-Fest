@@ -85,7 +85,7 @@ body {
     margin: 0 auto;
     border-radius: 15px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     
 }
 
@@ -149,3 +149,8 @@ a:link, a:visited {
     align-items: center;
 }
 
+#google_translate_element {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
