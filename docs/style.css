@@ -52,6 +52,34 @@
     cursor: pointer;
 }
 
+.close2 {
+    color: var(--main);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close3 {
+    color: var(--main);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #folclore{
     display: block;
     margin: 0 auto;
@@ -76,6 +104,21 @@
 }
 
 .proverbiosTitle{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: var(--main);
+}
+
+#independencia{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.independenciaTitle{
     text-align: center;
     margin-left: 20px;
     font-size: 1.5em;
