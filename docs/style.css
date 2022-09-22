@@ -108,6 +108,20 @@
     cursor: pointer;
 }
 
+.close6 {
+    color: var(--main);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close6:hover,
+.close6:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #folclore{
     display: block;
     margin: 0 auto;
@@ -153,12 +167,33 @@
     color: var(--main);
 }
 
+#esportes{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.esporteTitle{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: var(--main);
+}
+
 #equidade{
     display: block;
     margin: 0 auto;
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
+}
+
+#equidadeExplicacao {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .equidadeTitle{

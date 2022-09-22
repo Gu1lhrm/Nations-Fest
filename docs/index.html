@@ -61,6 +61,7 @@
         <div class="modal-content">
             <span class="close4">&times;</span>
             <p class="equidadeTitle">Equidade e Justiça</p> <hr>
+            <p id="equidadeExplicacao">Como parte do trabalho realizado no primeiro bimestre, no curso Nations in Action, os estudantes do 12º ano selecionaram exemplos de iniciativas que promovem a equidade e a justiça em diferentes Unidades da Federação. Aqui você encontra o resultado desse trabalho.</p>
             <img src="Equidade-Justica/1.png" alt="Third image" id="equidade">
             <img src="Equidade-Justica/2.png" alt="Third image" id="equidade">
         </div>
@@ -73,6 +74,19 @@
             <a href="https://wordwall.net/pt/resource/6329292/folclore-brasileiro/adivinhas-folcl%c3%b3re-brasileiro" id="games" target="_blank">Jogo de Adivinha</a>
             <a href="https://wordwall.net/pt/resource/35037676/history/jogo-da-memoria-folclore-brasileiro" id="games" target="_blank">Jogo da Memória</a>
             <a href="https://wordwall.net/pt/resource/3695264/folclore-brasileiro" target="_blank" id="games">Quiz sobre Folclore</a>
+        </div>
+    </div>
+
+    <div id="myModal6" class="modal">
+        <div class="modal-content">
+            <span class="close6">&times;</span>
+            <p class="esporteTitle">Esportes</p> <hr>
+            <img src="Esporte/1.png" alt="First image" id="esportes">
+            <img src="Esporte/2.png" alt="Second image" id="esportes">
+            <img src="Esporte/3.png" alt="Third image" id="esportes">
+            <img src="Esporte/4.png" alt="Fourth image" id="esportes">
+            <img src="Esporte/5.png" alt="Firth image" id="esportes">
+            <img src="Esporte/7.png" alt="Seventh image" id="esportes">
         </div>
     </div>
     
@@ -89,7 +103,7 @@
             <a id="myBtnProverbios" class="button"> PROVÉRBIOS</a>
         </li>
         <li class="itenslinks">
-            <a href="#" target="_blank" class="button"> ESPORTES</a>
+            <a id="myBtnEsporte" class="button"> ESPORTES</a>
         </li>
         <li class="itenslinks">
             <a id="myBtn" class="button"> FOLCLORE</a>
@@ -118,6 +132,7 @@
         var modal3 = document.getElementById("myModal3");
         var modal4 = document.getElementById("myModal4");
         var modal5 = document.getElementById("myModal5");
+        var modal6 = document.getElementById("myModal6");
 
         // Get the button that opens the modal
         var btn = document.getElementById("myBtn");
@@ -125,6 +140,7 @@
         var btn3 = document.getElementById("myBtnIndependencia");
         var btn4 = document.getElementById("myBtnEquidade");
         var btn5 = document.getElementById("myBtnGames");
+        var btn6 = document.getElementById("myBtnEsporte");
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
@@ -132,6 +148,7 @@
         var span3 = document.getElementsByClassName("close3")[0];
         var span4 = document.getElementsByClassName("close4")[0];
         var span5 = document.getElementsByClassName("close5")[0];
+        var span6 = document.getElementsByClassName("close6")[0];
 
         // When the user clicks the button, open the modal 
         btn.onclick = function () {
@@ -148,6 +165,9 @@
         }
         btn5.onclick = function () {
             modal5.style.display = "block";
+        }
+        btn6.onclick = function () {
+            modal6.style.display = "block";
         }
 
         // When the user clicks on <span> (x), close the modal
@@ -171,6 +191,10 @@
             modal5.style.display = "none";
         }
 
+        span6.onclick = function () {
+            modal6.style.display = "none";
+        }
+
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function (event) {
             if ((event.target == modal) || (event.target == modal2)) {
@@ -179,6 +203,7 @@
                 modal3.style.display = "none";
                 modal4.style.display = "none";
                 modal5.style.display = "none";
+                modal6.style.display = "none";
             }
         }
     </script>
