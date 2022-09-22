@@ -122,6 +122,20 @@
     cursor: pointer;
 }
 
+.close7 {
+    color: var(--main);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close7:hover,
+.close7:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #folclore{
     display: block;
     margin: 0 auto;
@@ -176,6 +190,21 @@
 }
 
 .esporteTitle{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: var(--main);
+}
+
+#personalidade{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.personalidadeTitle{
     text-align: center;
     margin-left: 20px;
     font-size: 1.5em;
