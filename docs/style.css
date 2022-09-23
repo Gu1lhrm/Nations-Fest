@@ -150,6 +150,21 @@
     cursor: pointer;
 }
 
+.close9 {
+    color: var(--main);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close9:hover,
+.close9:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 #folclore{
     display: block;
     margin: 0 auto;
@@ -234,6 +249,24 @@
 }
 
 .mathTitle{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: var(--main);
+}
+
+#musica{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000;
+}
+
+.musicaTitle{
     text-align: center;
     margin-left: 20px;
     font-size: 1.5em;
